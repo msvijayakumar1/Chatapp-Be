@@ -17,7 +17,7 @@ const server = require('http').createServer(app);
 const PORT = 5001;
 const io = require('socket.io')(server, {
   cors: {
-    origin: 'https://magenta-pasca-4adc10.netlify.app',
+    origin: 'https://chatapp-121.netlify.app',
     methods: ['GET', 'POST']
   }
 })
